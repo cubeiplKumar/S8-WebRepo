@@ -22,6 +22,7 @@ class Main {
       e.getStackTrace();
     }
   }
+
   #hdfc302 changes made by pritish
   public static void sampleMethod(int a, int b) throws ArithmeticException{
         System.out.println("Hello, this is sample method");
@@ -33,4 +34,13 @@ class Main {
         int c = a/b; //  int c = 4/2 which gets calculated as 2 
         System.out.println("c:"+c); // c: 2
    }
+
+  #hdfc301 changes by Raju
+  // reads all data from input.txt
+      sourceFile.read(array);
+
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
+
 }
